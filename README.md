@@ -28,6 +28,11 @@ To clone this repository:
 git clone https://github.com/iabhilash/function-mysqlwrapper-fdk.git
 ```
 
+Get inside the project folder:
+```
+cd function-mysqlwrapper-fdk
+```
+
 Build the project and execute the unit tests:
 ```
 mvn clean install
