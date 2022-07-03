@@ -16,17 +16,16 @@ in addition, lets you bring your own Dockerfile.
 
 # 2.About MysqlFunction
 
-MySqlFunction is developed based on Fn Project written in Java and manages the user inputs/outputs and use MySqlWrapper class to help user interact with mysql instance 
-
-Dockerfile contains configurations
-func.yaml contains input method to be invoked and version details
-pom.xml contains dependencies(mysql-connector-java and some helpers)
+- MySqlFunction is developed based on Fn Project written in Java and manages the user inputs/outputs and use MySqlWrapper class to help user interact with mysql instance 
+- Dockerfile contains configurations
+- func.yaml contains input method to be invoked and version details
+- pom.xml contains dependencies(mysql-connector-java and some helpers)
 
 # 2.How to use 
 
 To clone this repository:
 ```
-https://github.com/iabhilash/function-mysqlwrapper-fdk.git
+git clone https://github.com/iabhilash/function-mysqlwrapper-fdk.git
 ```
 
 Build the project and execute the unit tests:
